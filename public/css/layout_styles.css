@@ -1,0 +1,135 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    background-image: url("http://www.cyprus-slovakia.com/wp-content/uploads/2015/04/soccer-game-wallpaper-south-africa-sport-world-wallpaper-soccer-game-south-africa-sport-world-soccer-game-wallpaper-wallwuzz-hd-wallpaper-169051.jpg");
+    background-size: cover ;
+}
+
+.center-block{
+    width: 600px;
+}
+
+#bs-navbar li.active a, #bs-navbar li.active a:hover{
+    background-color: #f04e5e;
+}
+
+.pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus{
+    background-color: #f04e5e;
+    border-color: #f04e5e;
+}
+
+#rankings .danger td{
+    background-color: #f04e5e;
+}
+
+.margin-top-25{
+    margin-top: 25px;
+}
+
+#logo{
+    margin-top: 27px;
+    margin-bottom: 18px;
+}
+
+.titles{
+    color: #f04e5e;
+}
+
+#content{
+    padding-left: 30px;
+}
+
+@media (max-width: 1023px) {
+    .nav-collapse {
+        overflow-y: auto;
+    }
+}
+
+h1{
+    margin-top: 15px;
+    font-size: 39px;
+    font-weight: 300;
+}
+
+#bs-navbar{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    max-height: none;
+}
+
+.player{
+    width: 102px;
+    height: 192px;
+    display: inline-block;
+    border: 1px solid #AAAAAA;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    margin: 0px 5px;
+    line-height: 20px;
+    font-size: 12px;
+}
+
+.player .player_img{
+    width:80px;
+    height:80px;
+    position:relative;
+    display:inline-block;
+    overflow:hidden;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.player .player_img > img{
+    position:absolute;
+    top:50%;
+    left:50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    max-height: 100%;
+    cursor: pointer;
+}
+
+.player .player_captain_icon{
+    color: #f04e5e;
+    font-weight: bold;
+    width: 41px;
+    height: 48px;
+    background-image: url('/assets/captain.png');
+    float: left;
+    position: absolute;
+    display: block;
+    margin-top: -99px;
+    margin-left: 52px;
+}
+
+.player .player_remove{
+    display: none;
+    float: left;
+    position: absolute;
+    margin-top: 75px;
+    margin-left: 75px;
+}
+
+.player:hover .player_remove{
+    display: block;
+}
+
+.player .player_name{
+}
+
+.player .player_position{
+
+}
+
+.player .player_tr{
+
+}
+
+.player .player_pr{
+
+}

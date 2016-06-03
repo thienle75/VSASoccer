@@ -1,0 +1,15 @@
+{
+  "name": "raw_inc/php-engage-soccer",
+  "version": "1.0.0",
+  "ignore": [
+    "**/.*",
+    "component.json"
+  ],
+  "dependencies": {
+    "jquery": "jquery/jquery#1.11.1",
+    "font-awesome": "~3",
+    "html5shiv": "aFarkas/html5shiv",
+    "bootstrap": "twbs/bootstrap#3.*",
+    "bootstrap-multiselect": "davidstutz/bootstrap-multiselect#v0.9.13"
+  }
+}
